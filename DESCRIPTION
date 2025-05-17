@@ -2,18 +2,21 @@ Package: NBAMODEL
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Authors@R: c(
+Authors@R: 
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      given = "Kaleb",
+      family = "Coleman",
+      email = "kalebcoleman@gmail.com",
       role = c("aut", "cre")
     )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Uses hoopR data to predict NBA outcomes.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
+Imports:
+  magrittr,
+  dplyr   
+  
