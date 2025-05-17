@@ -92,34 +92,6 @@ present_model(model, train, test)
 
 ---
 
-## 📁 Project Structure
-.
-
-├── R/
-
-│   ├── build_features_pipeline.R
-
-│   ├── compute_elo.R
-
-│   ├── compute_alltime_elo.R
-
-│   ├── compute_recent_stats.R
-
-│   ├── prepare_train_test_data.R
-
-│   ├── model_utils.R
-
-├── data/
-
-│   └── final_model.rda
-
-├── DESCRIPTION
-
-├── NAMESPACE
-
-└── NBAMODEL.Rproj
-
----
 ## 📬 Contact
 
 Created by **Kaleb Coleman** — [GitHub](https://github.com/kalebcoleman)
