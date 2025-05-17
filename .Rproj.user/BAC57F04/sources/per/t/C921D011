@@ -1,0 +1,26 @@
+{
+    "id": "C921D011",
+    "path": "C:/Users/Kaleb/Desktop/nbamodels/NBAMODEL/NBAMODEL/R/compute_elo.R",
+    "project_path": "R/compute_elo.R",
+    "type": "r_source",
+    "hash": "2270905689",
+    "contents": "",
+    "dirty": false,
+    "created": 1747426641449.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "90,3",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1747430903,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1747430903488,
+    "read_only": false,
+    "read_only_alternatives": []
+}

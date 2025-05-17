@@ -1,0 +1,27 @@
+{
+    "id": "1C3307BF",
+    "path": "C:/Users/Kaleb/Desktop/nbamodels/NBAMODEL/NBAMODEL/R/compute_recent_stats.R",
+    "project_path": "R/compute_recent_stats.R",
+    "type": "r_source",
+    "hash": "4117783931",
+    "contents": "",
+    "dirty": false,
+    "created": 1747433995290.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "81,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1747434942,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1747434942043,
+    "read_only": false,
+    "read_only_alternatives": []
+}
