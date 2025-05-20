@@ -30,7 +30,7 @@ This project builds a reproducible R-based pipeline to generate features and tra
 ## 🧪 Model Performance (2025 Holdout)
 
 - **Accuracy**: 68.2%  
-- **AUC**: ~0.74  
+- **AUC**: ~0.72  
 - **Features used**:
   - Elo difference  
   - All-time Elo difference  
