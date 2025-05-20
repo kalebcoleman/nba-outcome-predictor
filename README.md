@@ -36,6 +36,11 @@ This project builds a reproducible R-based pipeline to generate features and tra
   - All-time Elo difference  
   - 5-game net rating diff  
   - 5-game eFG% diff
+    
+Confusion Matrix
+<img src="man/figures/confusion_matrix.png" alt="Confusion Matrix" width="600"/>
+ROC Curve
+<img src="man/figures/roc_curve.png" alt="ROC Curve" width="600"/>
 
 ---
 
