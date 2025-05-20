@@ -3,6 +3,7 @@
 #-------------------------------------------------------------------------------
 #' Prepare train and test feature sets
 #'
+#' @importFrom magrittr %>%
 #' @param train_seasons Integer vector of seasons to train on (default 2002:2024)
 #' @param test_season Integer season to hold out for testing (default 2025)
 #' @param k Numeric, Elo K-factor
@@ -113,7 +114,7 @@ prepare_train_test <- function(
 # res <- prepare_train_test()
 # train_feats <- res$train_feats
 # test_feats  <- res$test_feats
-
+#
 # Run these lines of code below in the R console to get data features
 # train_feats <- prepare_train_test()$train_feats
 # test_feats  <- prepare_train_test()$test_feats

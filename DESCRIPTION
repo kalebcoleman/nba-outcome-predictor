@@ -18,5 +18,8 @@ Depends:
     R (>= 3.5)
 Imports:
   magrittr,
-  dplyr   
+  dplyr,
+  pROC,
+  stats,
+  caret
   

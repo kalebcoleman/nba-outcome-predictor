@@ -63,6 +63,23 @@ present_model <- function(model, train, test, thresh = NULL) {
     ) +
     theme_minimal()
   print(p)
+
+  # 6) Confusion matrix heatmap
+  cm_table <- as.data.frame(cm$table)
+  colnames(cm_table) <- c("Prediction", "Reference", "Freq")
+  cm_table$Label <- paste0("Pred: ", cm_table$Prediction, "\nTrue: ", cm_table$Reference, "\nN: ", cm_table$Freq)
+
+  heat <- ggplot(cm_table, aes(x = Reference, y = Prediction, fill = Freq)) +
+    geom_tile(color = "white") +
+    geom_text(aes(label = Label), size = 4) +
+    scale_fill_gradient(low = "white", high = "steelblue") +
+    labs(
+      title = "Confusion Matrix (Prediction vs Actual)",
+      x = "Actual Outcome",
+      y = "Predicted Outcome"
+    ) +
+    theme_minimal()
+  print(heat)
 }
 
 

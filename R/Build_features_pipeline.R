@@ -114,9 +114,3 @@ build_features_all <- function(
   features
 }
 
-# Example usage:
-# source("R/build_features_all.R")
-# train_feats <- build_features_all(2002:2024)
-# test_feats  <- build_features_all(2025)
-# dim(train_feats)  # ~ total games from 2002-2024
-# dim(test_feats)   # ~ games in 2025
